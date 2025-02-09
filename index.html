@@ -8,16 +8,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Spickerrr 2.0</title>
+    <title>Spickerrr 2.1</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/logo.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -39,6 +38,8 @@
 
 <body class="index" id="page-top">
 
+<div class="snap-content">
+
 <!-- Navigation -->
 <nav class="navbar fixed-top navbar-toggleable-md navbar-light" id="mainNav">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -47,7 +48,7 @@
         Menu <i class="fa fa-bars"></i>
     </button>
     <div class="container">
-        <a class="navbar-brand" href="#page-top">Spickerrr 2.0</a>
+        <a class="navbar-brand" href="#page-top">Spickerrr 2.1</a>
         <div class="collapse navbar-collapse" id="navbarExample">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -59,6 +60,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Kontakt</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#privacy">Datenschutz</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -69,7 +73,7 @@
     <div class="container">
         <img class="img-fluid" src="img/logo.png" alt="">
         <div class="intro-text">
-            <span class="name">Spickerrr 2.0</span>
+            <span class="name">Spickerrr 2.1</span>
             <hr class="star-light">
             <span class="skills">Die Antragsapp für Parteitage der Piratenpartei</span>
         </div>
@@ -88,39 +92,41 @@
                     Schnell installiert, Parteitag und Antragspaket ausgewählt und schon kann es losgehen.</p>
             </div>
             <div class="col-lg-4">
-                <p>Alle Daten werden von der pirat.ly spickerrr API geladen. Dort können auch neue Antragspakete
-                    eingestellt und verwaltet werden.</p>
+                <p>
+                    Alle Daten werden von der <a href="https://spickerrr.piraten.tools/api/">Spickerrr API</a> geladen, 
+                    die die Daten aus dem <a href="https://wiki.piratenpartei.de/Piratenwiki">Piratenwiki</a> ausliest.
+                </p>
             </div>
             <div class="col-lg-8 offset-lg-2 text-center">
-                <a id="download-btn" href="https://play.google.com/store/apps/details?id=de.lostincoding.spickerrr"
-                   class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download aus dem Google Play Store
+<!--                <a href="https://play.google.com/store/apps/details?id=de.piratentools.spickerrr">
+                    <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" style="max-width:100%;" height="80" />
+                </a>
+-->                <a href="https://f-droid.org/packages/de.piratentools.spickerrr/">
+                    <img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" style="max-width:100%;" height="80" />
+                </a>
+                <a href="https://github.com/Piraten-Tools/spickerrr/releases/latest">
+                    <img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png" alt="Get it on Github" style="max-width:100%;" height="80" />
                 </a>
             </div>
-
         </div>
-    </div>
-    </div>
     </div>
 </section>
 
-<!-- About Section -->
+<!-- About Section
 <section class="success" id="further">
     <div class="container">
         <h2 class="text-center">Sonstiges</h2>
         <hr class="star-light">
         <div class="row">
             <div class="col-lg-4 offset-lg-2">
-                <p>Wie du Anträge zum Spickerrr hinzufügst und ihn fit für deinen Parteitag machst erfährst
-                    du hier.</p>
+                <p>Wie du Anträge zum Spickerrr hinzufügst und ihn fit für deinen Parteitag machst erfährst du hier.</p>
             </div>
             <div class="col-lg-4">
-                <a href="http://wiki.piratenpartei.de/Benutzer:LostInCoding/spickerrr"
+                <a href="https://wiki.piratenpartei.de/Benutzer:LostInCoding/spickerrr"
                    class="btn btn-lg btn-outline">
                     <i class="fa fa-info"></i> Weitere Informationen
                 </a>
             </div>
-
         </div>
     </div>
 </section>
@@ -178,6 +184,23 @@
     </div>
 </section>
 
+<!-- Privacy Section -->
+<section class="success" id="privacy">
+    <div class="container">
+        <h2 class="text-center">Datenschutz</h2>
+        <hr class="star-light">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center">
+                <p>Die App überträgt keine persönlichen Daten.</p>
+                <p>Die Wahl-Präferenzen und Notizen werden aktuell gar nicht und in Zukunft nur auf deinem Gerät gespeichert.</p>
+                <p>Für Informationen zur Datenverarbeitung dieser Seite und des Servers (spickerrr API) lies bitte die 
+                   <a href="https://piraten.tools/datenschutz/" style="color:#FFFFFF">Datenschutzerklärung</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 <footer class="text-center">
     <div class="footer-above">
@@ -187,28 +210,34 @@
                     <h3>Linkz</h3>
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="https://github.com/LostInCoding/spickerrr"><i
+                            <a class="btn-social btn-outline" href="https://github.com/Piraten-Tools/spickerrr"><i
                                     class="fa fa-fw fa-github"></i></a>
                         </li>
-                        <li class="list-inline-item">
+<!--                        <li class="list-inline-item">
                             <a class="btn-social btn-outline" href="https://pirat.ly/spicker#/info"><i
                                     class="fa fa-fw fa-cloud"></i></a>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="btn-social btn-outline" href="https://spickerrr.lostincoding.de"><i
+-->                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="https://spickerrr.piraten.tools"><i
                                     class="fa fa-fw fa-rss"></i></a>
                         </li>
-                        <li class="list-inline-item">
+<!--                        <li class="list-inline-item">
                             <a class="btn-social btn-outline"
-                               href="http://wiki.piratenpartei.de/Benutzer:LostInCoding/spickerrr"><i
+                               href="https://wiki.piratenpartei.de/Benutzer:LostInCoding/spickerrr"><i
                                     class="fa fa-fw fa-wikipedia-w"></i></a>
+                        </li>
+-->
+                        <li class="list-inline-item">
+                            <a class="btn-social btn-outline" href="https://piraten.tools/datenschutz/"><i
+                                    class="fa fa-fw fa-user-secret"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Verantwortlicher</h3>
-                    <p> Felix Wöstmann<br>
-                        <b>Twitter:</b> LostInCoding
+                    <p>Daniel Jäger<br>
+                        <b>Telegram:</b> @DJaeger<br>
+                        <b>Twitter:</b> @DJaeger90
                     </p>
                 </div>
             </div>
@@ -224,6 +253,8 @@
         </div>
     </div>
 </footer>
+
+</div>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top hidden-lg-up">
@@ -247,6 +278,9 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.min.js"></script>
+
+<!-- Piraten-Tools menu -->
+<script src="https://cdn.piraten.tools/libs/piratentools/1.0.0/js/toolsmenu.js"></script>
 
 </body>
 
